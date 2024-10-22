@@ -1,7 +1,50 @@
-#logo{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
     justify-content: center;
     text-align: center;
     display: flex;
     width: 70px;
     height: auto;
-}  
+}
+
+main {
+    min-height: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+section {
+    min-height: 600px;
+    width: 100%;
+}
+
+#carru-cont {
+    border-radius: 30px;
+    background-color: antiquewhite;
+    height: 250px;
+    display: flex;
+    
+    margin: auto;
+}
+
+.carousel-item {
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+h5 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
