@@ -1,41 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="src/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>F1</title>
 </head>
-<body>
+<body class="bg-dark">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <div class="col-md-3 mb-2 mb-md-0">
-        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-        <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
-        <use xlink:href="#bootstrap"></use>
-        </svg>
-        </a>
-        </div>
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-        <li><a href="#" class="nav-link px-2"></a></li>
+      <div class="col-md-3 mb-2 mb-md-0">
+          <img src="accets/f1_logo-removebg-preview.png" id="logo" alt="F1 logo">
+      </div>
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <a href="index.html" class="nav-link px-2 text-light">Home</a>
+          <a href="galeria.html" class="nav-link px-2 text-light">Gallery</a>
+      </ul>
+      <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-danger me-2">Login</button>
+          <button type="button" class="btn btn-danger">Sign-up</button>
+      </div>
+  </header>
+
+    <marquee><h2 class="text-light">THE KINGS OF F1 // THE KINGS OF F1 // THE KINGS OF F1 //</h2></marquee>
+    <div class="hover-element d-flex justify-content-center"><img class="w-100" src="accets/F1_CLASH_24.avif" alt=""></div>
+    <br><br><br>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2 class="text-center text-light my-4">F1 News</h2>
+                <div class="card-group">
+                    <div class="card mb-4">
+                        <img src="accets/max.jpg" class="card-img-top" alt="Max Verstappen">
+                        <div class="card-body">
+                            <h6 class="card-title">Max Verstappen's Anger about His Fight with Lando Norris in Formula 1: "We Are Not in Kindergarten"</h6>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="accets/lewis.jpg" class="card-img-top" alt="Lewis Hamilton">
+                        <div class="card-body">
+                            <h6 class="card-title">Impact on Formula 1 due to Lewis Hamilton's Release: "Very Strange"</h6>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="accets/charles-leclerc-trophy-2.jpg" class="card-img-top" alt="Charles Leclerc">
+                        <div class="card-body">
+                            <h6 class="card-title">Leclerc wins in Austin and dreams: "Everything is perfect, I still aspire to the championship"</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card mb-4">
+                        <img src="accets/carlos-sainz-scuderia-ferrari.jpg" class="card-img-top" alt="Carlos Sainz">
+                        <div class="card-body">
+                            <h6 class="card-title">Sainz does not race in Saudi Arabia and is replaced by Bearman</h6>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="accets/934ca8035be0c405fbd5ca38af468615d36263de.jpg" class="card-img-top" alt="Sergio Perez">
+                        <div class="card-body">
+                            <h6 class="card-title">Red Bull puts PRESSURE on Checo for the Mexican GP</h6> 
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img src="accets/george_russell_1wxus0sgukurv1669aalea7qiv.jpg" class="card-img-top" alt="George Russell">
+                        <div class="card-body">
+                            <h6 class="card-title">George Russell Aims for the Top After Recent Performance</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+        <p class="col-md-4 mb-0 text-body-Light">© 2024 Company, Inc</p>
+        <img src="accets/f1_logo-removebg-preview.png" id="logo" alt="F1 logo">
+        <ul class="nav col-md-4 justify-content-end">
+            <a href="index.html" class="nav-link px-2 text-light">Home</a>
+            <a href="galeria.html" class="nav-link px-2 text-light">Gallery</a>
         </ul>
-        <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Iniciar sesión</button>
-        <button type="button" class="btn btn-primary">Regístrate</button>
-        </div>
-        </header>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
-        
-            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-        
-            <ul class="nav col-md-4 justify-content-end">
-              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-              <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-body-secondary">Gallery</a></li>
-            </ul>
-          </footer>
+    </footer>
 </body>
 </html>
